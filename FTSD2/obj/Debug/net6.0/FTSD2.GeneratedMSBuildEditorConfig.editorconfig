@@ -1,0 +1,204 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FTSD2
+build_property.RootNamespace = FTSD2
+build_property.ProjectDir = C:\Development\CharitiesCoreNew\ftsd-master\FTSD2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Development\CharitiesCoreNew\ftsd-master\FTSD2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActionTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uVHlwZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActionTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uVHlwZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActionTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uVHlwZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActionTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uVHlwZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActionTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uVHlwZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActiveContracts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlQ29udHJhY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActiveContracts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlQ29udHJhY3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActiveContracts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlQ29udHJhY3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActiveContracts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlQ29udHJhY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/ActiveContracts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZlQ29udHJhY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmedmentTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lZG1lbnRUeXBlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmedmentTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lZG1lbnRUeXBlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmedmentTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lZG1lbnRUeXBlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmedmentTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lZG1lbnRUeXBlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmedmentTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lZG1lbnRUeXBlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmendmentContracts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lbmRtZW50Q29udHJhY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmendmentContracts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lbmRtZW50Q29udHJhY3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmendmentContracts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lbmRtZW50Q29udHJhY3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmendmentContracts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lbmRtZW50Q29udHJhY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AmendmentContracts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lbmRtZW50Q29udHJhY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AthorityMatrices/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRob3JpdHlNYXRyaWNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AthorityMatrices/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRob3JpdHlNYXRyaWNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AthorityMatrices/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRob3JpdHlNYXRyaWNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AthorityMatrices/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRob3JpdHlNYXRyaWNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/AthorityMatrices/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRob3JpdHlNYXRyaWNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/BussinessUnits/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzc2luZXNzVW5pdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/BussinessUnits/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzc2luZXNzVW5pdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/BussinessUnits/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzc2luZXNzVW5pdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/BussinessUnits/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzc2luZXNzVW5pdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/BussinessUnits/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzc2luZXNzVW5pdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Companies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Companies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Companies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Companies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Companies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/UnderPreparationContracts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5kZXJQcmVwYXJhdGlvbkNvbnRyYWN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/UnderPreparationContracts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5kZXJQcmVwYXJhdGlvbkNvbnRyYWN0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/UnderPreparationContracts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5kZXJQcmVwYXJhdGlvbkNvbnRyYWN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/UnderPreparationContracts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5kZXJQcmVwYXJhdGlvbkNvbnRyYWN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/UnderPreparationContracts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5kZXJQcmVwYXJhdGlvbkNvbnRyYWN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Development/CharitiesCoreNew/ftsd-master/FTSD2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qkxy6wvosp

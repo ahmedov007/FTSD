@@ -1,0 +1,136 @@
+﻿@model FTSD2.Domain.AmendmentContracts
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="content-page">
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box">
+                <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">الرئيسية</a></li>
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">العقود التشغيلية</a></li>
+                        <li class="breadcrumb-item active"> إضافة عقد تحت التعديل</li>
+                    </ol>
+                </div>
+                <h4 class="page-title">صفحة إضافة عقد تحت التعديل</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-box">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="ContractNo" class="control-label"></label>
+                        <input asp-for="ContractNo" class="form-control" />
+                        <span asp-validation-for="ContractNo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ContractName" class="control-label"></label>
+                        <input asp-for="ContractName" class="form-control" />
+                        <span asp-validation-for="ContractName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ArabicContractName" class="control-label"></label>
+                        <input asp-for="ArabicContractName" class="form-control" />
+                        <span asp-validation-for="ArabicContractName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="RegionId" class="control-label"></label>
+                        <input asp-for="RegionId" class="form-control" />
+                        <span asp-validation-for="RegionId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CompanyId" class="control-label"></label>
+                        <input asp-for="CompanyId" class="form-control" />
+                        <span asp-validation-for="CompanyId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ContractTypeId" class="control-label"></label>
+                        <input asp-for="ContractTypeId" class="form-control" />
+                        <span asp-validation-for="ContractTypeId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AthorityApproval" class="control-label"></label>
+                        <input asp-for="AthorityApproval" class="form-control" />
+                        <span asp-validation-for="AthorityApproval" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NewContractActionId" class="control-label"></label>
+                        <input asp-for="NewContractActionId" class="form-control" />
+                        <span asp-validation-for="NewContractActionId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AmendmentRequestDate" class="control-label"></label>
+                        <input asp-for="AmendmentRequestDate" class="form-control" />
+                        <span asp-validation-for="AmendmentRequestDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AmendmentLetterApprovalDate" class="control-label"></label>
+                        <input asp-for="AmendmentLetterApprovalDate" class="form-control" />
+                        <span asp-validation-for="AmendmentLetterApprovalDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SigntureDate" class="control-label"></label>
+                        <input asp-for="SigntureDate" class="form-control" />
+                        <span asp-validation-for="SigntureDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ContractorSignutreDate" class="control-label"></label>
+                        <input asp-for="ContractorSignutreDate" class="form-control" />
+                        <span asp-validation-for="ContractorSignutreDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AmendmentCost" class="control-label"></label>
+                        <input asp-for="AmendmentCost" class="form-control" />
+                        <span asp-validation-for="AmendmentCost" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="OptionalPeriodValue" class="control-label"></label>
+                        <input asp-for="OptionalPeriodValue" class="form-control" />
+                        <span asp-validation-for="OptionalPeriodValue" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AmendmentPercentage" class="control-label"></label>
+                        <input asp-for="AmendmentPercentage" class="form-control" />
+                        <span asp-validation-for="AmendmentPercentage" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ModificationDuration" class="control-label"></label>
+                        <input asp-for="ModificationDuration" class="form-control" />
+                        <span asp-validation-for="ModificationDuration" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="IsDeleted" class="control-label"></label>
+                        <input asp-for="IsDeleted" class="form-control" />
+                        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="IsActive" class="control-label"></label>
+                        <input asp-for="IsActive" class="form-control" />
+                        <span asp-validation-for="IsActive" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+    @section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+    }

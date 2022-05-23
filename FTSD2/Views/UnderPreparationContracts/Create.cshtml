@@ -1,0 +1,208 @@
+﻿@model FTSD2.Models.OperationContractsPreparationAddViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="content-page">
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">الرئيسية</a></li>
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">العقود التشغيلية</a></li>
+                    <li class="breadcrumb-item active"> إضافة عقد قيد الإعداد</li>
+                </ol>
+            </div>
+            <h4 class="page-title">صفحة إضافة عقد قيد الإعداد</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+      
+            <form asp-action="Create">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="Name" class="control-label"></label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="NameArabic" class="control-label"></label>
+                            <input asp-for="NameArabic" class="form-control" />
+                            <span asp-validation-for="NameArabic" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label asp-for="RegionId" class="control-label"></label>
+                                <select asp-for="RegionId" class="form-control select2" asp-items="ViewBag.RegionId">
+                                    <option value=" ">اختر المنطقة</option>
+
+                                </select>
+                                <span asp-validation-for="RegionId" class="text-danger"></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="ContractTypeId" class="control-label"></label>
+                            <select asp-for="ContractTypeId" class="form-control select2" asp-items="ViewBag.ContractTypeId">
+                                <option value=" ">اختر نوع العقد</option>
+
+                            </select>
+                            <span asp-validation-for="ContractTypeId" class="text-danger"></span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+
+                    <div class="col">
+                        <div class="form-group">
+                            <label asp-for="CompanyId" class="control-label"></label>
+                            <select asp-for="CompanyId" class="form-control select2" asp-items="ViewBag.CompanyId">
+                                <option value=" ">اختر المقاول</option>
+
+                            </select>
+                            <span asp-validation-for="CompanyId" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label asp-for="AthorityApproval" class="control-label"></label>
+                                <select asp-for="AthorityApproval" class="form-control select2" asp-items="ViewBag.AthorityApproval">
+                                    <option value=" ">اختر صاحب الصلاحية</option>
+
+                                </select>
+                                <span asp-validation-for="AthorityApproval" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.RequestDate, htmlAttributes: new { @class = "control-label" })
+                                <div class="col-md-10">
+                                    <input type="date" name="RequestDate" class="form-control" />
+
+                                    @*@Html.EditorFor(model => model.RequestDate, new { htmlAttributes = new { @class = "form-control" } })*@
+                                    @Html.ValidationMessageFor(model => model.RequestDate, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.WavierDate, htmlAttributes: new { @class = "control-label " })
+                                <div class="col-md-10">
+                                    <input type="date" name="WavierDate" class="form-control" />
+                                    @*@Html.EditorFor(model => model.WavierDate, new { htmlAttributes = new { @class = "form-control" } })*@
+                                    @Html.ValidationMessageFor(model => model.WavierDate, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ContractRequestDate, htmlAttributes: new { @class = "control-label" })
+                                <div class="col-md-10">
+                                    <input type="date" name="ContractRequestDate" class="form-control" />
+                                    @Html.ValidationMessageFor(model => model.ContractRequestDate, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.JobexDate, htmlAttributes: new { @class = "control-label" })
+                                <div class="col-md-10">
+                                    <input type="date" name="JobexDate" class="form-control" />
+                                    @Html.ValidationMessageFor(model => model.JobexDate, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.OpenBidDate, htmlAttributes: new { @class = "control-label" })
+                                <div class="col-md-10">
+                                    <input type="date" name="OpenBidDate" class="form-control" />
+                                    @Html.ValidationMessageFor(model => model.OpenBidDate, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.BidEvaluationDate, htmlAttributes: new { @class = "control-label" })
+                                <div class="col-md-10">
+                                    <input type="date" name="BidEvaluationDate" class="form-control" />
+                                    @Html.ValidationMessageFor(model => model.BidEvaluationDate, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.AwardingApprovalDate, htmlAttributes: new { @class = "control-label" })
+                                <div class="col-md-10">
+                                    <input type="date" name="AwardingApprovalDate" class="form-control" />
+                                    @Html.ValidationMessageFor(model => model.AwardingApprovalDate, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.SigningDate, htmlAttributes: new { @class = "control-label" })
+                                <div class="col-md-10">
+                                    <input type="date" name="SigningDate" class="form-control" />
+                                    @Html.ValidationMessageFor(model => model.SigningDate, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ContractorDate, htmlAttributes: new { @class = "control-label" })
+                                <div class="col-md-10">
+                                    <input type="date" name="ContractorDate" class="form-control" />
+                                    @Html.ValidationMessageFor(model => model.ContractorDate, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+
+            </form>
+      
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+</div>
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

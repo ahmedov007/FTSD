@@ -1,0 +1,104 @@
+﻿@model FTSD2.Models.OperationContractsPreparationAddViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>OperationContractsPreparationAddViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="NameArabic" class="control-label"></label>
+                <input asp-for="NameArabic" class="form-control" />
+                <span asp-validation-for="NameArabic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AthorityApproval" class="control-label"></label>
+                <input asp-for="AthorityApproval" class="form-control" />
+                <span asp-validation-for="AthorityApproval" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RegionId" class="control-label"></label>
+                <input asp-for="RegionId" class="form-control" />
+                <span asp-validation-for="RegionId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContractTypeId" class="control-label"></label>
+                <input asp-for="ContractTypeId" class="form-control" />
+                <span asp-validation-for="ContractTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RequestDate" class="control-label"></label>
+                <input asp-for="RequestDate" class="form-control" />
+                <span asp-validation-for="RequestDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyId" class="control-label"></label>
+                <input asp-for="CompanyId" class="form-control" />
+                <span asp-validation-for="CompanyId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContractRequestDate" class="control-label"></label>
+                <input asp-for="ContractRequestDate" class="form-control" />
+                <span asp-validation-for="ContractRequestDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WavierDate" class="control-label"></label>
+                <input asp-for="WavierDate" class="form-control" />
+                <span asp-validation-for="WavierDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AwardingApprovalDate" class="control-label"></label>
+                <input asp-for="AwardingApprovalDate" class="form-control" />
+                <span asp-validation-for="AwardingApprovalDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SigningDate" class="control-label"></label>
+                <input asp-for="SigningDate" class="form-control" />
+                <span asp-validation-for="SigningDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContractorDate" class="control-label"></label>
+                <input asp-for="ContractorDate" class="form-control" />
+                <span asp-validation-for="ContractorDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OpenBidDate" class="control-label"></label>
+                <input asp-for="OpenBidDate" class="form-control" />
+                <span asp-validation-for="OpenBidDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BidEvaluationDate" class="control-label"></label>
+                <input asp-for="BidEvaluationDate" class="form-control" />
+                <span asp-validation-for="BidEvaluationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JobexDate" class="control-label"></label>
+                <input asp-for="JobexDate" class="form-control" />
+                <span asp-validation-for="JobexDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

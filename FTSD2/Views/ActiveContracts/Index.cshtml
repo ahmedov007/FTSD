@@ -1,0 +1,101 @@
+﻿@model IEnumerable<FTSD2.Models.OperationContractsActiveAddViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ActiveId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContractNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NameArabic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContractTypeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LumpSum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Uitrate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OptionalValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CotractTotal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActiveId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContractNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameArabic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContractTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LumpSum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uitrate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OptionalValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CotractTotal)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

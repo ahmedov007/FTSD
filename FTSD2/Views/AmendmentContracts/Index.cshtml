@@ -1,0 +1,137 @@
+﻿@model IEnumerable<FTSD2.Domain.AmendmentContracts>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ContractNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContractName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArabicContractName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContractTypeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AthorityApproval)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NewContractActionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AmendmentRequestDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AmendmentLetterApprovalDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SigntureDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContractorSignutreDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AmendmentCost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OptionalPeriodValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AmendmentPercentage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModificationDuration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsDeleted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContractNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContractName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArabicContractName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContractTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AthorityApproval)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NewContractActionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmendmentRequestDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmendmentLetterApprovalDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SigntureDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContractorSignutreDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmendmentCost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OptionalPeriodValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmendmentPercentage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModificationDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDeleted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
